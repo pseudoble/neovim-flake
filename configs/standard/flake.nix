@@ -492,7 +492,10 @@
         };
       in
       {
-        packages.nvim = nvim;
+        packages = {
+          nvim = nvim;
+          default = nvim;
+        };
         defaultPackage = nvim;
         apps.default = { type = "app"; program = "${nvim}/bin/nvim"; };
       }
