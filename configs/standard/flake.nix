@@ -474,6 +474,7 @@
                 nvim-treesitter-parsers.yaml
                 nvim-treesitter-parsers.xml
                 undotree
+                vim-ocaml
                 vim-fugitive
                 nvim-lspconfig
                 nvim-cmp
